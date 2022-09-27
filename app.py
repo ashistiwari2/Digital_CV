@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from PIL import Image
-
+im = Image.open("favicon.ico")
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -16,16 +16,16 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 # PAGE_ICON = ":wave:"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
-Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about Cryptocureency and small investor.
+Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocureency and small investor🚀.
 """
 EMAIL = "ashistiwari2@gmail.com "
 W_EMAIL='Ashis.Tiwari@in.ey.com'
 C_EMAIL="ashis_201800333@smit.smu.edu.in"
 SOCIAL_MEDIA = {
-    "Instagram": "https://www.instagram.com/ashistiwari2",
-    "LinkedIn": "https://www.linkedin.com/in/ashis-tiwari-9aa527213/",
-    "GitHub": "https://github.com/ashistiwari2",
-    "Twitter": "https://twitter.com/Ashis_Tiwari_2",
+    "🎫Instagram": "https://www.instagram.com/ashistiwari2",
+    "🥇LinkedIn": "https://www.linkedin.com/in/ashis-tiwari-9aa527213/",
+    "⚽GitHub": "https://github.com/ashistiwari2",
+    "🏉Twitter": "https://twitter.com/Ashis_Tiwari_2",
 }
 PROJECTS = {
     "🏆 Twitter Sentiment Analysis App": "https://ashistiwari2-twitter-sentiment-analysis-app-1-appapp-n0hrlq.streamlitapp.com/",
@@ -34,7 +34,7 @@ PROJECTS = {
 
 }
 
-im = Image.open("favicon.ico")
+
 st.set_page_config(page_title=PAGE_TITLE, page_icon=im)
 
 
@@ -67,14 +67,18 @@ with col2:
 
 # --- SOCIAL LINKS ---
 st.write('\n')
+images=[im1,im2,im3,im4]
 cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+for image1 in images:
+    st.image(image1)
+for index,(platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader('Objective')
+st.write("---")
 st.write(
     """
     To build up my experience and learn problem solving
@@ -93,14 +97,17 @@ st.write(
 )
 st.write('\n')
 st.subheader('Education')
+st.write("---")
 cols = ['Subject/Course', 'Board/university board', 'School/college','year','Class/Degree']
 education=[['Science,Math,Social Science,Hindi,English','CBSE','Pinegrove School, Dharampur,Himachal Pradesh','2015-2016','10'],
            ['Physic,Chemistry,Mathematics,Physical Education,English','CBSE','Pinegrove School, Dharampur,Himachal Pradesh','2016-2018','12'],
            ['Computer Science and Engineering ','Sikkim Manipal University','Sikkim Manipal Institute of Technology','2018-2022','B.Tech']
            ]
-df2 = pd.DataFrame(education, columns=cols)
+edu=education[::-1]
+df2 = pd.DataFrame(edu, columns=cols)
 st.table(df2)
 st.write('\n')
+st.write("---")
 st.subheader("Experience & Qulifications")
 st.write(
     """
@@ -115,6 +122,7 @@ st.write(
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Hard Skills")
+st.write("---")
 st.write(
     """
 - 👩‍💻 Programming: Python (Scikit-learn, Pandas,Numpy,Fastapi,seaborn), SQL, C++,Java
@@ -143,13 +151,13 @@ st.write(
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
+st.write("🈺", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
 st.write("02/2022 - 06/2022")
 st.write(
     """
-- ► Did Azure certification in AZ-900 and AI-900.
-- ► Learned About visualization tools like PowerBI and used it to visualize large data.
-- ► Data manipulation using python library such as numpy and pandas
+- ➤ Did Azure certification in AZ-900 and AI-900.
+- ➤ Learned About visualization tools like PowerBI and used it to visualize large data.
+- ➤ Data manipulation using python library such as numpy and pandas
 """
 )
 
@@ -160,3 +168,19 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+
+#--- Language known ----
+st.write('\n')
+st.subheader("Language & Proficiency")
+st.write("---")
+st.write(
+    """
+- 👉 Nepali- Spoken/Native proficiency
+- 👉 English- Spoken/Business proficiency
+- 👉 Hindi - Spoken proficiency
+"""
+)
+
+
+
