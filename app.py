@@ -67,7 +67,6 @@ with col2:
 
 # --- SOCIAL LINKS ---
 st.write('\n')
-images=[im1,im2,im3,im4]
 cols = st.columns(len(SOCIAL_MEDIA))
 for image1 in images:
     st.image(image1)
@@ -181,6 +180,7 @@ st.write(
 - 👉 Hindi - Spoken proficiency
 """
 )
-
+link = '[Wanna Copy template Click here👈](https://ashistiwari2-copy-digital-cv-main-lvsmxx.streamlitapp.com/)'
+st.markdown(link, unsafe_allow_html=True)
 
 
