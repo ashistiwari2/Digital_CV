@@ -181,5 +181,8 @@ st.write(
 st.write('\n')
 link = '[Wanna Copy template Click here👈](https://ashistiwari2-copy-digital-cv-main-lvsmxx.streamlitapp.com/)'
 st.markdown(link, unsafe_allow_html=True)
+st.write('\n')
+link1 = '[Leave a message for me here👈](https://ashistiwari2-connect-with-me-main-lrei5a.streamlitapp.com/)'
+st.markdown(link1, unsafe_allow_html=True)
 
 
