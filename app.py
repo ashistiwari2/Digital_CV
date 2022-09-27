@@ -178,6 +178,7 @@ st.write(
 - 👉 Hindi - Spoken proficiency
 """
 )
+st.write('\n')
 link = '[Wanna Copy template Click here👈](https://ashistiwari2-copy-digital-cv-main-lvsmxx.streamlitapp.com/)'
 st.markdown(link, unsafe_allow_html=True)
 
