@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import pandas as pd
 import streamlit as st
 from PIL import Image
 
@@ -7,33 +7,35 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "CV1.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Peter Parker"
-PAGE_ICON = ":wave:"
-NAME = "Peter Parker"
+PAGE_TITLE = "Digital CV | Ashis Tiwari"
+# PAGE_ICON = ":wave:"
+NAME = "Ashis Tiwari"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about Cryptocureency and small investor.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "ashistiwari2@gmail.com "
+W_EMAIL='Ashis.Tiwari@in.ey.com'
+C_EMAIL="ashis_201800333@smit.smu.edu.in"
 SOCIAL_MEDIA = {
-    "YouTube": "https://youtube.com/c/codingisfun",
-    "LinkedIn": "https://linkedin.com",
-    "GitHub": "https://github.com",
-    "Twitter": "https://twitter.com",
+    "Instagram": "https://www.instagram.com/ashistiwari2",
+    "LinkedIn": "https://www.linkedin.com/in/ashis-tiwari-9aa527213/",
+    "GitHub": "https://github.com/ashistiwari2",
+    "Twitter": "https://twitter.com/Ashis_Tiwari_2",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Twitter Sentiment Analysis App": "https://ashistiwari2-twitter-sentiment-analysis-app-1-appapp-n0hrlq.streamlitapp.com/",
+    "🏆 Machine Learning Model(for predicting fish species)": "https://ashistiwari2-streamlit-app-main-s513q8.streamlitapp.com/",
+    "🏆 Small Newsletter form using MongoDB ": "https://ashistiwari.herokuapp.com/",
+
 }
 
-
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+im = Image.open("favicon.ico")
+st.set_page_config(page_title=PAGE_TITLE, page_icon=im)
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
@@ -59,6 +61,8 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
+    st.write("📫 ",W_EMAIL)
+    st.write("📫",C_EMAIL )
 
 
 # --- SOCIAL LINKS ---
@@ -70,12 +74,39 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
+st.subheader('Objective')
+st.write(
+    """
+    To build up my experience and learn problem solving
+    in every possibility to make a mark on my career with
+    guidance by leaders of this organization. 
+    To get best out of internship given by this organization 
+    to build up for future career. 
+    Life will be Enlighten by learning new things. 
+    Belonging to humble background, 
+    we all are well versatile with ethics and morale value. 
+    To respect the work given by this organization
+    and do it by gathering idea from this organization’s great leader. 
+    From village boy to building superscalar worker
+     is indeed a needed perspective of job.
+    """
+)
+st.write('\n')
+st.subheader('Education')
+cols = ['Subject/Course', 'Board/university board', 'School/college','year','Class/Degree']
+education=[['Science,Math,Social Science,Hindi,English','CBSE','Pinegrove School, Dharampur,Himachal Pradesh','2015-2016','10'],
+           ['Physic,Chemistry,Mathematics,Physical Education,English','CBSE','Pinegrove School, Dharampur,Himachal Pradesh','2016-2018','12'],
+           ['Computer Science and Engineering ','Sikkim Manipal University','Sikkim Manipal Institute of Technology','2018-2022','B.Tech']
+           ]
+df2 = pd.DataFrame(education, columns=cols)
+st.table(df2)
+st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ Good understanding in Python and related Library.
+- ✔️ Good hands on experience and knowledge in Fastapi and Docker
+- ✔️ Good understanding of Machine Learning Model
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
@@ -86,9 +117,9 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
+- 👩‍💻 Programming: Python (Scikit-learn, Pandas,Numpy,Fastapi,seaborn), SQL, C++,Java
 - 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
+- 📚 Modeling: Logistic regression, linear regression, decition trees, Linear Discrimant Analysis
 - 🗄️ Databases: Postgres, MongoDB, MySQL
 """
 )
@@ -100,37 +131,25 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**Senior  Analyst | Ernst and Young(EY) LLP,Kolkata,India**")
+st.write("07/2022 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► work in team to develop MLOP project
+- ► Learned about fastapi,Docker, Jenkins, connecting to Azure database
+- ► Deployed Fastapi successfully with using Linear Discrimant Machine Learning  Alogrithm 
 """
 )
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
+st.write("🚧", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
+st.write("02/2022 - 06/2022")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
-"""
-)
-
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
-st.write(
-    """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Did Azure certification in AZ-900 and AI-900.
+- ► Learned About visualization tools like PowerBI and used it to visualize large data.
+- ► Data manipulation using python library such as numpy and pandas
 """
 )
 
