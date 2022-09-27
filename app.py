@@ -61,8 +61,8 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-    st.write("📫 ",W_EMAIL)
-    st.write("📫",C_EMAIL )
+    st.write("💼 ",W_EMAIL)
+    st.write("🎓",C_EMAIL )
 
 
 # --- SOCIAL LINKS ---
