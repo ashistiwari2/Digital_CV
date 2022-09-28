@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 # PAGE_ICON = ":wave:"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
-Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocureency and small investor🚀.
+Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
 """
 EMAIL = "ashistiwari2@gmail.com "
 W_EMAIL='Ashis.Tiwari@in.ey.com'
