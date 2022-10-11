@@ -9,6 +9,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV1.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
+experience_letter= current_dir / "assets" / "experience_letter.pdf"
 
 
 # --- GENERAL SETTINGS ---
@@ -150,6 +151,12 @@ st.write(
 st.write('\n')
 st.write("🈺", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
 st.write("02/2022 - 06/2022")
+st.download_button(
+        label=" 📄 Experience Letter",
+        data=PDFbyte,
+        file_name1=experience_letter.name,
+        mime="application/octet-stream",
+    )
 st.write(
     """
 - ➤ Did Azure certification in AZ-900 and AI-900.
