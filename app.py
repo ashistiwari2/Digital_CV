@@ -152,7 +152,7 @@ st.write('\n')
 st.write("🈺", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
 st.write("02/2022 - 06/2022")
 st.download_button(
-        label=" 📄 Experience Letter",
+        label="  📖 Experience Letter",
         data=PDFbyte,
         file_name=experience_letter.name,
         mime="application/octet-stream",
@@ -180,9 +180,9 @@ st.subheader("Language & Proficiency")
 st.write("---")
 st.write(
     """
-- 👉 Nepali- Spoken/Native proficiency
-- 👉 English- Spoken/Business proficiency
-- 👉 Hindi - Spoken proficiency
+- 🔄 Nepali- Spoken/Native proficiency
+- 🔄 English- Spoken/Business proficiency
+- 🔄 Hindi - Spoken proficiency
 """
 )
 st.write('\n')
