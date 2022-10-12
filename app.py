@@ -24,14 +24,13 @@ W_EMAIL='Ashis.Tiwari@in.ey.com'
 C_EMAIL="ashis_201800333@smit.smu.edu.in"
 SOCIAL_MEDIA = {
     "🎫Instagram": "https://www.instagram.com/ashistiwari2",
-    "⬜🟦🟦🟦🟦🟦⬜
+    " ⬜🟦🟦🟦🟦🟦⬜
 🟦🟦🟦🟦🟦🟦🟦
 🟦🟦🟦🟦🟦🟦🟦
 🟦🟩🟦⬜🟦🟩🟦
 🟦🟩🟦🟩🟦⬜🟦
 🟦🟩🟦🟦🟦⬜🟦
-⬜🟦🟦🟦🟦🟦🟩
-LinkedIn": "https://www.linkedin.com/in/ashis-tiwari-9aa527213/",
+⬜🟦🟦🟦🟦🟦🟩LinkedIn": "https://www.linkedin.com/in/ashis-tiwari-9aa527213/",
     "⚽GitHub": "https://github.com/ashistiwari2",
     "🏉Twitter": "https://twitter.com/Ashis_Tiwari_2",
 }
