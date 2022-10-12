@@ -154,7 +154,7 @@ st.write("02/2022 - 06/2022")
 st.download_button(
         label=" 📄 Experience Letter",
         data=PDFbyte,
-        file_name1=experience_letter.name,
+        file_name=experience_letter.name,
         mime="application/octet-stream",
     )
 st.write(
