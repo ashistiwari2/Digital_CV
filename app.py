@@ -2,6 +2,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from PIL import Image
+import hydralit_components as hc
+import time
 im = Image.open("favicon.ico")
 
 # --- PATH SETTINGS ---
@@ -37,6 +39,8 @@ PROJECTS = {
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=im)
+with hc.HyLoader("Ashis Tiwari CV is Loading wait for seconds",hc.Loaders.standard_loaders,index=5):
+    time.sleep(5)
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
