@@ -11,7 +11,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV1.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
-experience_letter_ey = current_dir / "experience_letter.pdf"
+experience_letter_ey = current_dir / "assets" / "experience_letter.pdf"
 
 
 # --- GENERAL SETTINGS ---
