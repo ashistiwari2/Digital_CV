@@ -160,8 +160,8 @@ st.write('\n')
 st.write("🈺", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
 st.write("02/2022 - 06/2022")
 st.download_button(
-        label="  📖 Experience Letter",
-        data=PDFbyte,
+        label="📖 Experience Letter",
+        data=experience_letter_ey,
         file_name=experience_letter_ey.name,
         mime="application/octet-stream",
     )
