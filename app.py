@@ -159,12 +159,19 @@ st.write(
 st.write('\n')
 st.write("🈺", "**Intern | Ernst and Young(EY) LLP ,Chennai,India**")
 st.write("02/2022 - 06/2022")
-st.download_button(
-        label="📖 Experience Letter",
-        data=experience_letter_ey,
-        file_name=experience_letter_ey.name,
-        mime="application/octet-stream",
-    )
+# st.download_button(
+#         label="📖 Experience Letter",
+#         data=experience_letter_ey,
+#         file_name=experience_letter_ey.name,
+#         mime="application/octet-stream",
+#     )
+with open("assets/experience_letter.pdf", "rb") as file:
+    btn=st.download_button(
+    label=" 📖 Experience Letter",
+    data=file,
+    file_name="experience_letter.pdf",
+    mime="application/octet-stream"
+)
 st.write(
     """
 - ➤ Did Azure certification in AZ-900 and AI-900.
