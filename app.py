@@ -20,6 +20,9 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
 Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
+Holder of Dogecoin(DOGE),Synthetix Network Token(SNX),JasmyCoin(JASMY),UMA,ICP,GRT,BTTC,Shiba INU,SKL,
+TRX,ELF,Spell Token,PUSH,LCX,LUNC,SWEAT,BABYDOGE,GALA,CHILIZ,NEM,ADA,IOST,ONE,PHB,ETN,WPR,ACT,XVG,LET,ODE,ZEBI
+BNS,BNSD,SPRINK,TLM,FOHO,GARI,BUSD,BNB,XRP,LPT,CHR,BURGER,ALGO,FRONT,HIGH,OM,LSK,TNB,SHIBDOGE,VOLTV2,ALTPAY,SAITANOBI
 """
 EMAIL = "ashistiwari2@gmail.com "
 W_EMAIL='Ashis.Tiwari@in.ey.com'
