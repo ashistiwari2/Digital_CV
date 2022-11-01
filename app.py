@@ -17,7 +17,7 @@ experience_letter_ey = current_dir / "assets" / "experience_letter.pdf"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Ashis Tiwari"
 # PAGE_ICON = ":wave:"
-NAME = "Sisir Parajuli"
+NAME = "Ashis Tiwari"
 DESCRIPTION = """
 Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
 Holder of Dogecoin(DOGE),Synthetix Network Token(SNX),JasmyCoin(JASMY),UMA,ICP,GRT,BTTC,Shiba INU,SKL,
