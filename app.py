@@ -38,6 +38,7 @@ PROJECTS = {
     "🏆 Twitter Sentiment Analysis App": "https://ashistiwari2-twitter-sentiment-analysis-app-1-appapp-n0hrlq.streamlitapp.com/",
     "🏆 Machine Learning Model(for predicting fish species)": "https://ashistiwari2-streamlit-app-main-s513q8.streamlitapp.com/",
     "🏆 Small Newsletter form using MongoDB ": "https://ashistiwari.herokuapp.com/",
+    "🏆ToDo List with Nodejs":"https://ashistiwari22.herokuapp.com/"
 
 }
 
