@@ -231,4 +231,11 @@ components.html(
 <coingecko-coin-heatmap-widget  height="400" locale="en" top="500"></coingecko-coin-heatmap-widget>
 """,
     height=600,)
+st.write("-------------------------------------------------------------------------------------------")
+components.html(
+    """
+    <script src="https://widgets.coingecko.com/coingecko-random-coin-widget.js"></script>
+<coingecko-random-coin-widget  locale="en" width="0"></coingecko-random-coin-widget>
+""",
+    height=150,)
 
