@@ -222,6 +222,7 @@ st.markdown(link1, unsafe_allow_html=True)
 components.html(
     """
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"></div>
-    """)
+    """,
+    height=250,)
 
 
