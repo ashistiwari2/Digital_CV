@@ -224,5 +224,11 @@ components.html(
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
     """,
     height=250,)
-
+st.write("-------------------------------------------------------------------------------------------")
+components.html(
+    """
+    <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+<coingecko-coin-heatmap-widget  height="400" locale="en" top="500"></coingecko-coin-heatmap-widget>
+""",
+    height=350,)
 
