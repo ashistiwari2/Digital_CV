@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import hydralit_components as hc
+import streamlit.components.v1 as components
 import time
 im = Image.open("favicon.ico")
 
@@ -52,6 +53,13 @@ with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standa
 
 with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standard_loaders,index=[2,2,2,2]):
     time.sleep(5)
+
+
+components.html(
+    """
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,2586,10407,5994,5617,4195,3513,8425,16086,74" currency="INR" theme="dark" transparent="true" show-symbol-logo="true"></div>
+    """
+)
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
