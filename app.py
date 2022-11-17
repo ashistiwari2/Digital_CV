@@ -239,10 +239,22 @@ components.html(
 st.write("-------------------------------------------------------------------------------------------")
 components.html(
     """
+    <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
      crossorigin="anonymous"></script>
-    <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
-<coingecko-coin-heatmap-widget  height="400" locale="en" top="100"></coingecko-coin-heatmap-widget>
+        <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+    
+ </head>
+ <body>
+ <coingecko-coin-heatmap-widget  height="400" locale="en" top="100"></coingecko-coin-heatmap-widget>
+</body>
+</html>
+    
+    
+
 """,
     height=600,)
 # st.write("-------------------------------------------------------------------------------------------")
