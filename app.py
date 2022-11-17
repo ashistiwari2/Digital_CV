@@ -243,8 +243,7 @@ components.html(
  <html lang="en">
  <head>
      <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
-     crossorigin="anonymous"></script>
+  
         <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
     
  </head>
@@ -257,6 +256,27 @@ components.html(
 
 """,
     height=600,)
+st.write("-------------------------------------------------------------------------------------------")
+components.html(
+    """
+    <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
+     crossorigin="anonymous"></script>
+      
+    
+ </head>
+ <body>
+ <p>Google Ads</p>
+</body>
+</html>
+    
+    
+
+""",
+    height=200,)
 # st.write("-------------------------------------------------------------------------------------------")
 # components.html(
 #     """
@@ -264,4 +284,5 @@ components.html(
 # <coingecko-random-coin-widget  locale="en" width="0"></coingecko-random-coin-widget>
 # """,
 #     height=150,)
+
 
