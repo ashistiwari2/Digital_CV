@@ -136,6 +136,22 @@ st.write(
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
+st.write('----------------------------------------------------')
+components.html(
+    """
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-7140902499537328"
+     data-ad-slot="5599862418"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+""",height=150)
+st.write('--------------------------------------')
 
 
 # --- SKILLS ---
