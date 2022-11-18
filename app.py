@@ -137,20 +137,20 @@ st.write(
 """
 )
 st.write('----------------------------------------------------')
-components.html(
-    """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-fb+5w+4e-db+86"
-     data-ad-client="ca-pub-7140902499537328"
-     data-ad-slot="5599862418"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-""",height=150)
+# # components.html(
+#     """
+#     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
+#      crossorigin="anonymous"></script>
+# <ins class="adsbygoogle"
+#      style="display:block"
+#      data-ad-format="fluid"
+#      data-ad-layout-key="-fb+5w+4e-db+86"
+#      data-ad-client="ca-pub-7140902499537328"
+#      data-ad-slot="5599862418"></ins>
+# <script>
+#      (adsbygoogle = window.adsbygoogle || []).push({});
+# </script>
+# """,height=150)
 st.write('--------------------------------------')
 
 
@@ -273,26 +273,26 @@ components.html(
 """,
     height=600,)
 st.write("-------------------------------------------------------------------------------------------")
-components.html(
-    """
-    <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
-     crossorigin="anonymous"></script>
+# components.html(
+#     """
+#     <!DOCTYPE html>
+#  <html lang="en">
+#  <head>
+#      <meta charset="UTF-8">
+#     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7140902499537328"
+#      crossorigin="anonymous"></script>
       
     
- </head>
- <body>
- <p>Google Ads</p>
-</body>
-</html>
+#  </head>
+#  <body>
+#  <p>Google Ads</p>
+# </body>
+# </html>
     
     
 
-""",
-    height=200,)
+# """,
+#     height=200,)
 # st.write("-------------------------------------------------------------------------------------------")
 # components.html(
 #     """
