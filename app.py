@@ -114,6 +114,30 @@ st.write(
      is indeed a needed perspective of job.
     """
 )
+with st.container ():
+    def load_lottieurl(url):
+        r=requests.get(url)
+        if r.status_code !=200:
+            return None
+        return r.json()
+
+    embed_component= {'linkedin':"""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashistiwari2" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/ashistiwari2?trk=profile-badge"></a></div>""", 'medium':"""<div style="overflow-y: auto; height:540px;"> <div id="retainable-rss-embed" 
+    data-rss="https://medium.com/feed/retainable,https://medium.com/feed/data-science-in-your-pocket"
+    <div class="badge-base LI-profile-badge" 
+    data-locale="pt_BR" 
+    data-size="large" 
+    data-theme="light" 
+    data-type="HORIZONTAL"
+    data-maxcols="3" 
+    data-layout="grid"
+    data-poststyle="inline" 
+    data-readmore="Read the rest" 
+    data-buttonclass="btn btn-primary" 
+    data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""}
+    with st.sidebar:
+            components.html(embed_component['linkedin'],height=335)
+            
 st.write('\n')
 st.subheader('Education')
 st.write("---")
