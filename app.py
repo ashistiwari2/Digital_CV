@@ -284,6 +284,11 @@ link1 = '[Leave a message for me here👈](https://ashistiwari2-connect-with-me-
 st.markdown(link1, unsafe_allow_html=True)
 components.html(
     """
+            <div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+            """
+                           ,height=500)
+components.html(
+    """
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
     """,
     height=250,)
