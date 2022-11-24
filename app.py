@@ -146,20 +146,6 @@ with st.container ():
             components.html(embeded_component_1['twitter'],height=355)
             components.html(embeded_comp_2['instagram'],height=800)
             components.html(fb['facebook'],height=400)
-	    components.html(
-    				"""
-				<script 
-      				type="text/javascript"
-      				src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
-      				id="aisensy-wa-widget"
-      				widget-id="gLwq0K"
-    				>
-    				</script>
-	
-     
-
-   				 """,
-   				 height=500,)
 #             components.html(git['github'],height=400)
             
             
@@ -308,8 +294,15 @@ st.markdown(link1, unsafe_allow_html=True)
 components.html(
     """
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+    <script 
+      type="text/javascript"
+      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+      id="aisensy-wa-widget"
+      widget-id="gLwq0K"
+    >
+    </script>
     """,
-    height=250,)
+    height=700,)
 # st.write("-------------------------------------------------------------------------------------------")
 # components.html(
 #     """
@@ -331,19 +324,19 @@ components.html(
 # """,
 #     height=600,)
 st.write("-------------------------------------------------------------------------------------------")
-components.html(
-    """
+# components.html(
+#     """
      
-    <script 
-      type="text/javascript"
-      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
-      id="aisensy-wa-widget"
-      widget-id="gLwq0K"
-    >
-    </script>
+#     <script 
+#       type="text/javascript"
+#       src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+#       id="aisensy-wa-widget"
+#       widget-id="gLwq0K"
+#     >
+#     </script>
 	
-    """,
-    height=500,)
+#     """,
+#     height=500,)
 # components.html(
 #     """
 #     <!DOCTYPE html>
