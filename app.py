@@ -144,7 +144,10 @@ with st.container ():
             components.html(embeded_component_1['twitter'],height=355)
             components.html(embeded_comp_2['instagram'],height=700)
          
-            components.html(github['github'],height=500)
+            components.html("""
+            <div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+            """
+                           ,height=500)
             
 st.write('\n')
 st.subheader('Education')
