@@ -284,7 +284,8 @@ link1 = '[Leave a message for me here👈](https://ashistiwari2-connect-with-me-
 st.markdown(link1, unsafe_allow_html=True)
 components.html(
     """
-            <div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+            <div class="github-card" data-user="ashistiwari2"></div> 
+            <script src="http://lab.lepture.com/github-cards/widget.js"></script>
             """
                            ,height=500)
 components.html(
