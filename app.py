@@ -135,7 +135,7 @@ with st.container ():
     data-readmore="Read the rest" 
     data-buttonclass="btn btn-primary" 
     data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""}
-    embeded_component_1={'twitter':"""<a href="https://twitter.com/Ashis_Tiwari_2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Ashis_Tiwari_2</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"""}
+    embeded_component_1={'twitter':"""<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With great thought, let me take you through short story.<br>If you feel hardwork really payoff then look at people carrying load of sack behind their back, just barely keep both ends meet.<br>And people who smartly invest enjoy a large piece of profit..</p>&mdash; Ashis Tiwari (@Ashis_Tiwari_2) <a href="https://twitter.com/Ashis_Tiwari_2/status/1510101434506768387?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"""}
     with st.sidebar:
             components.html(embed_component['linkedin'],height=335)
             components.html(embeded_component['twitter'],height=355)
