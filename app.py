@@ -146,6 +146,20 @@ with st.container ():
             components.html(embeded_component_1['twitter'],height=355)
             components.html(embeded_comp_2['instagram'],height=800)
             components.html(fb['facebook'],height=400)
+	    components.html(
+    				"""
+				<script 
+      				type="text/javascript"
+      				src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+      				id="aisensy-wa-widget"
+      				widget-id="gLwq0K"
+    				>
+    				</script>
+	
+     
+
+    """,
+    height=500,)
 #             components.html(git['github'],height=400)
             
             
