@@ -140,7 +140,7 @@ with st.container ():
     with st.sidebar:
             components.html(embed_component['linkedin'],height=335)
             components.html(embeded_component_1['twitter'],height=355)
-            components.html(embeded_comp_2['instagram'],height=500)
+            components.html(embeded_comp_2['instagram'],height=600)
             
             
 st.write('\n')
@@ -281,26 +281,26 @@ components.html(
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
     """,
     height=250,)
-st.write("-------------------------------------------------------------------------------------------")
-components.html(
-    """
-    <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
+# st.write("-------------------------------------------------------------------------------------------")
+# components.html(
+#     """
+#     <!DOCTYPE html>
+#  <html lang="en">
+#  <head>
+#      <meta charset="UTF-8">
   
-        <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
+#         <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
     
- </head>
- <body>
- <coingecko-coin-heatmap-widget  height="400" locale="en" top="100"></coingecko-coin-heatmap-widget>
-</body>
-</html>
+#  </head>
+#  <body>
+#  <coingecko-coin-heatmap-widget  height="400" locale="en" top="100"></coingecko-coin-heatmap-widget>
+# </body>
+# </html>
     
     
 
-""",
-    height=600,)
+# """,
+#     height=600,)
 st.write("-------------------------------------------------------------------------------------------")
 # components.html(
 #     """
