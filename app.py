@@ -145,8 +145,9 @@ with st.container ():
             components.html(embeded_component_1['twitter'],height=355)
             components.html(embeded_comp_2['instagram'],height=800)
             components.html("""
-                            <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                           
                             <div class="github-card" data-github="ashistiwari2" data-width="400" data-height="318" data-theme="medium"></div>
+                             <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
                             """
                             ,height=600)
             
