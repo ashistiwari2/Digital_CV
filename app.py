@@ -140,7 +140,7 @@ with st.container ():
     with st.sidebar:
             components.html(embed_component['linkedin'],height=335)
             components.html(embeded_component_1['twitter'],height=355)
-            components.html(embeded_comp_2['instagram'],height=355)
+            components.html(embeded_comp_2['instagram'],height=500)
             
             
 st.write('\n')
