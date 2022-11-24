@@ -290,19 +290,7 @@ st.markdown(link1, unsafe_allow_html=True)
 #             <script src="http://lab.lepture.com/github-cards/widget.js"></script>
 #             """
 #                            ,height=500)
-components.html(
-    """
-     
-    <script 
-      type="text/javascript"
-      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
-      id="aisensy-wa-widget"
-      widget-id="gLwq0K"
-    >
-    </script>
-	
-    """,
-    height=250,)
+
 components.html(
     """
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
@@ -329,6 +317,19 @@ components.html(
 # """,
 #     height=600,)
 st.write("-------------------------------------------------------------------------------------------")
+components.html(
+    """
+     
+    <script 
+      type="text/javascript"
+      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+      id="aisensy-wa-widget"
+      widget-id="gLwq0K"
+    >
+    </script>
+	
+    """,
+    height=500,)
 # components.html(
 #     """
 #     <!DOCTYPE html>
