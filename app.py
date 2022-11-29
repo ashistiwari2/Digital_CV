@@ -147,6 +147,7 @@ with st.container ():
 		components.html(embeded_comp_2['instagram'],height=800)
 		components.html(fb['facebook'],height=300)
 		components.html(scan['scan'],height=250)
+		#components.html()
 #             components.html(git['github'],height=400)
             
             
