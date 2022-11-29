@@ -311,7 +311,7 @@ with col2:
       widget-id="gLwq0K"
     >
     </script>
-    """,height=7000)
+    """,height=700)
 with col1:
 	components.html("""
 	</script>
