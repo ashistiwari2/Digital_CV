@@ -290,23 +290,6 @@ st.markdown(link1, unsafe_allow_html=True)
 #             <script src="http://lab.lepture.com/github-cards/widget.js"></script>
 #             """
 #                            ,height=500)
-col1, col2 = st.columns(2, gap="small")
-with col2:
-	components.html("""
-	<script 
-      type="text/javascript"
-      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
-      id="aisensy-wa-widget"
-      widget-id="gLwq0K"
-    >
-    """,height=250)
-with col1:
-	components.html("""
-	</script>
-    <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-fd79d4ed-5179-4b71-900c-26160a6805c9"></div>"""
-			,height=250)
 	
 components.html(
     """
@@ -317,7 +300,26 @@ components.html(
     
 """,
     height=700,)
-# st.write("-------------------------------------------------------------------------------------------")
+# st.write("------
+col1, col2 = st.columns(2, gap="small")
+with col2:
+	components.html("""
+	<script 
+      type="text/javascript"
+      src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+      id="aisensy-wa-widget"
+      widget-id="gLwq0K"
+    >
+    </script>
+    """,height=7000)
+with col1:
+	components.html("""
+	</script>
+    <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-fd79d4ed-5179-4b71-900c-26160a6805c9"></div>"""
+			,height=700)
+-------------------------------------------------------------------------------------")
 # components.html(
 #     """
 #     <!DOCTYPE html>
