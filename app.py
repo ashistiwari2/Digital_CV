@@ -319,7 +319,6 @@ with col1:
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-fd79d4ed-5179-4b71-900c-26160a6805c9"></div>"""
 			,height=700)
--------------------------------------------------------------------------------------")
 # components.html(
 #     """
 #     <!DOCTYPE html>
