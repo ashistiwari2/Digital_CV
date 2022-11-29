@@ -140,15 +140,13 @@ with st.container ():
     embeded_comp_3={'github':"""<div class="github-card" data-github="ashistiwari2" data-width="400" data-height="318" data-theme="medium"></div><script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>"""}
     git={'github':"""<div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>"""}
     fb={'facebook':"""<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fashistiwari2%2Fposts%2Fpfbid02neCS9JNYx6FWn8cavBjYfVJ3rZK1budbyzxdNLpvswjs2rZfS1JsgjWVgjd5e1dEl&show_text=true&width=500" width="500" height="277" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>"""}
-    
+    scan={'scan':"""<img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>"""}
     with st.sidebar:
-            components.html(embed_component['linkedin'],height=335)
-            components.html(embeded_component_1['twitter'],height=355)
-            components.html(embeded_comp_2['instagram'],height=800)
-            components.html(fb['facebook'],height=400)
-	    components.html("""
-	    <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
-	    """,height=250)
+		components.html(embed_component['linkedin'],height=335)
+		components.html(embeded_component_1['twitter'],height=355)
+		components.html(embeded_comp_2['instagram'],height=800)
+		components.html(fb['facebook'],height=300)
+		components.html(scan['scan'],height=250)
 #             components.html(git['github'],height=400)
             
             
