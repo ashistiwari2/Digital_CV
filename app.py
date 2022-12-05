@@ -316,7 +316,7 @@ with col1:
     
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-fd79d4ed-5179-4b71-900c-26160a6805c9"></div>"""
-			,height=700)
+			,height=400)
 # components.html(
 #     """
 #     <!DOCTYPE html>
@@ -402,4 +402,4 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 </body>
 </html>
-""",height=700)
+""",height=400)
