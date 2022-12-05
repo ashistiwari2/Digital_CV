@@ -297,7 +297,7 @@ components.html(
     <br>
     
 """,
-    height=700,)
+    height=300,)
 # st.write("------
 col1, col2 = st.columns(2, gap="small")
 with col2:
