@@ -142,37 +142,42 @@ with st.container ():
     git={'github':"""<div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>"""}
     fb={'facebook':"""<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fashistiwari2%2Fposts%2Fpfbid02neCS9JNYx6FWn8cavBjYfVJ3rZK1budbyzxdNLpvswjs2rZfS1JsgjWVgjd5e1dEl&show_text=true&width=500" width="500" height="277" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>"""}
     scan={'scan':"""<img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>"""}
-   
+    azure_ai={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df9b0f90-c92d-4e25-97c6-4d91cf35f8dc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
+    azure_fd={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4a73b896-5c22-4ae8-90bf-9f9d7393e240" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
+
 
 with st.sidebar:
 		components.html(embed_component['linkedin'],height=335)
 		components.html(azure_dp_100['certi'],height=335)
 		components.html(embeded_component_1['twitter'],height=355)
+		components.html(azure_ai['certi'],height=335)
 		components.html(embeded_comp_2['instagram'],height=800)
+		components.html(azure_fd['certi'],height=335)
 		components.html(fb['facebook'],height=300)
 		components.html(scan['scan'],height=250)  
-		components.html('''
-			<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashistiwari2" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/ashistiwari2?trk=profile-badge"></a></div>""", 'medium':"""<div style="overflow-y: auto; height:540px;"> <div id="retainable-rss-embed" 
-    data-rss="https://medium.com/feed/retainable,https://medium.com/feed/data-science-in-your-pocket"
-    <div class="badge-base LI-profile-badge" 
-    data-locale="pt_BR" 
-    data-size="large" 
-    data-theme="light" 
-    data-type="HORIZONTAL"
-    data-maxcols="3" 
-    data-layout="grid"
-    data-poststyle="inline" 
-    data-readmore="Read the rest" 
-    data-buttonclass="btn btn-primary" 
-    data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b7ae14df-e829-4e68-b9cc-2ed5ecf9420d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With great thought, let me take you through short story.<br>If you feel hardwork really payoff then look at people carrying load of sack behind their back, just barely keep both ends meet.<br>And people who smartly invest enjoy a large piece of profit..</p>&mdash; Ashis Tiwari (@Ashis_Tiwari_2) <a href="https://twitter.com/Ashis_Tiwari_2/status/1510101434506768387?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <div class="github-card" data-github="ashistiwari2" data-width="400" data-height="318" data-theme="medium"></div><script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    <div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fashistiwari2%2Fposts%2Fpfbid02neCS9JNYx6FWn8cavBjYfVJ3rZK1budbyzxdNLpvswjs2rZfS1JsgjWVgjd5e1dEl&show_text=true&width=500" width="500" height="277" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
-    ''',height=1600)
+		
+# 		components.html('''
+# 			<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+#             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashistiwari2" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/ashistiwari2?trk=profile-badge"></a></div>""", 'medium':"""<div style="overflow-y: auto; height:540px;"> <div id="retainable-rss-embed" 
+#     data-rss="https://medium.com/feed/retainable,https://medium.com/feed/data-science-in-your-pocket"
+#     <div class="badge-base LI-profile-badge" 
+#     data-locale="pt_BR" 
+#     data-size="large" 
+#     data-theme="light" 
+#     data-type="HORIZONTAL"
+#     data-maxcols="3" 
+#     data-layout="grid"
+#     data-poststyle="inline" 
+#     data-readmore="Read the rest" 
+#     data-buttonclass="btn btn-primary" 
+#     data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+#     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b7ae14df-e829-4e68-b9cc-2ed5ecf9420d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+#     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With great thought, let me take you through short story.<br>If you feel hardwork really payoff then look at people carrying load of sack behind their back, just barely keep both ends meet.<br>And people who smartly invest enjoy a large piece of profit..</p>&mdash; Ashis Tiwari (@Ashis_Tiwari_2) <a href="https://twitter.com/Ashis_Tiwari_2/status/1510101434506768387?ref_src=twsrc%5Etfw">April 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#     <div class="github-card" data-github="ashistiwari2" data-width="400" data-height="318" data-theme="medium"></div><script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+#     <div class="github-card" data-user="ashistiwari2"></div> <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+#     <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fashistiwari2%2Fposts%2Fpfbid02neCS9JNYx6FWn8cavBjYfVJ3rZK1budbyzxdNLpvswjs2rZfS1JsgjWVgjd5e1dEl&show_text=true&width=500" width="500" height="277" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+#     <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
+#     ''',height=1600)
     
 			
 st.write('\n')
