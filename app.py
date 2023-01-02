@@ -144,6 +144,8 @@ with st.container ():
     scan={'scan':"""<img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D7432047169%26text%3DHi%2520%252CThank%2520You%2520For%2520messaging%2520Me&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>"""}
     azure_ai={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df9b0f90-c92d-4e25-97c6-4d91cf35f8dc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
     azure_fd={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4a73b896-5c22-4ae8-90bf-9f9d7393e240" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
+    ey_bade_1={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="837afe26-d5b6-4e63-9b7a-05098745cbad" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
+    ey_bade_2={'certi':"""<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ecdce311-0dab-4ee9-90be-ed039cdc3c11" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>"""}
 
 
 with st.sidebar:
@@ -154,7 +156,9 @@ with st.sidebar:
 		components.html(embeded_comp_2['instagram'],height=800)
 		components.html(azure_fd['certi'],height=335)
 		components.html(fb['facebook'],height=300)
-		components.html(scan['scan'],height=250)  
+		components.html(ey_bade_1['certi'],height=335)
+		components.html(scan['scan'],height=250)
+		components.html(ey_bade_2['certi'],height=335)
 		
 # 		components.html('''
 # 			<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
