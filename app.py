@@ -320,15 +320,15 @@ st.markdown(link1, unsafe_allow_html=True)
 #             """
 #                            ,height=500)
 	
-components.html(
-    """
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+# components.html(
+#     """
+#     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,2586,5617,8425" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
     
-    <br>
-    <br>
+#     <br>
+#     <br>
     
-""",
-    height=300,)
+# """,
+#     height=300,)
 # st.write("------
 col1, col2 = st.columns(2, gap="small")
 with col2:
@@ -347,7 +347,7 @@ with col1:
     
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-fd79d4ed-5179-4b71-900c-26160a6805c9"></div>"""
-			,height=400)
+			,height=600)
 # components.html(
 #     """
 #     <!DOCTYPE html>
@@ -433,4 +433,4 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 </body>
 </html>
-""",height=400)
+""",height=600)
