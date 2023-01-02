@@ -147,9 +147,9 @@ with st.container ():
 
 
 with st.sidebar:
-		components.html(embed_component['linkedin'],height=335)
+		components.html(embed_component['linkedin'],height=400)
 		components.html(azure_dp_100['certi'],height=335)
-		components.html(embeded_component_1['twitter'],height=355)
+		components.html(embeded_component_1['twitter'],height=400)
 		components.html(azure_ai['certi'],height=335)
 		components.html(embeded_comp_2['instagram'],height=800)
 		components.html(azure_fd['certi'],height=335)
