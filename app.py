@@ -247,6 +247,7 @@ st.write(
 - ► work in team to develop MLOP project
 - ► Learned about fastapi,Docker, Jenkins, connecting to Azure database
 - ► Deployed Fastapi successfully with using Linear Discrimant Machine Learning  Alogrithm 
+- ► Azure certified Data Scientist Associate
 """
 )
 
