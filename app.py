@@ -5,6 +5,7 @@ from PIL import Image
 import hydralit_components as hc
 import streamlit.components.v1 as components
 import time
+from annotated_text import annotated_text
 im = Image.open("favicon.ico")
 
 # --- PATH SETTINGS ---
@@ -75,6 +76,7 @@ with col1:
 
 with col2:
     st.title(NAME)
+    annotated_text(" ",("Ashis"," ","#faa"),("Tiwari","⨁","#faa")," ")
     st.write(DESCRIPTION)
     st.download_button(
         label=" 📄 Download Resume",
