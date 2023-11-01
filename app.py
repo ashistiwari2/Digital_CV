@@ -22,8 +22,7 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
 Associate consultant @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
-Holder of Dogecoin(DOGE),Synthetix Network Token(SNX),JasmyCoin(JASMY),UMA,ICP,GRT,BTTC,Shiba INU,SKL,
-TRX,ELF,Spell Token
+Holder of BLZ,Polkadot(DOT),MANA,Matic,Dogecoin(DOGE),Synthetix Network Token(SNX)
 """
 #PUSH,LCX,LUNC,SWEAT,BABYDOGE,GALA,CHILIZ,NEM,ADA,IOST,ONE,PHB,ETN,WPR,ACT,XVG,LET,ODE,ZEBI
 #BNS,BNSD,SPRINK,TLM,FOHO,GARI,BUSD,BNB,XRP,LPT,CHR,BURGER,ALGO,FRONT,HIGH,OM,LSK,TNB,SHIBDOGE,VOLTV2,ALTPAY,SAITANOBI
