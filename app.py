@@ -21,7 +21,7 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 # PAGE_ICON = ":wave:"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
-Senior Analyst @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
+Associate consultant @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
 Holder of Dogecoin(DOGE),Synthetix Network Token(SNX),JasmyCoin(JASMY),UMA,ICP,GRT,BTTC,Shiba INU,SKL,
 TRX,ELF,Spell Token
 """
