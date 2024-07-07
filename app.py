@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 from PIL import Image
-import hydralit_components as hc
+#import hydralit_components as hc
 import streamlit.components.v1 as components
 import time
 from annotated_text import annotated_text
