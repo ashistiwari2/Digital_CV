@@ -45,14 +45,14 @@ PROJECTS = {
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=im)
-with hc.HyLoader("Ashis Tiwari CV is Loading wait for seconds",hc.Loaders.standard_loaders,index=5):
-    time.sleep(5)
+#with hc.HyLoader("Ashis Tiwari CV is Loading wait for seconds",hc.Loaders.standard_loaders,index=5):
+    #time.sleep(5)
 
-with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standard_loaders,index=[3,0,5]):
-    time.sleep(5)
+#with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standard_loaders,index=[3,0,5]):
+    #time.sleep(5)
 
-with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standard_loaders,index=[2,2,2,2]):
-    time.sleep(5)
+#with hc.HyLoader('Ashis Tiwari CV is Loading wait for seconds',hc.Loaders.standard_loaders,index=[2,2,2,2]):
+    #time.sleep(5)
 
 
 components.html(
