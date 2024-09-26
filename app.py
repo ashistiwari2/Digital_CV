@@ -252,7 +252,7 @@ st.write(
 - ► won the Extraordinaires Award as being recognised as Client Extraordinaire.
 """
 )
-with open("1702176715477.jpg", "rb") as file:
+with open("assets/1702176715477.jpg", "rb") as file:
     btn=st.download_button(
     label=" 📖Client Extraordinaire award",
     data=file,
