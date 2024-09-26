@@ -249,9 +249,16 @@ st.write(
     """
 - ► work in team to Support and develop many project at Hindustan Unilever limited(HUL,India)
 - ► Processing of invoice of client to pass on to SAP System using ABBYY and python.
+- ► won the Extraordinaires Award as being recognised as Client Extraordinaire.
 """
 )
-
+with open("1702176715477.jpg", "rb") as file:
+    btn=st.download_button(
+    label=" 📖Client Extraordinaire award",
+    data=file,
+    file_name="Client Extraordinaire award.jpg",
+    mime="application/octet-stream"
+)
 
 # --- JOB 1
 st.write("🚧", "**Senior  Analyst | Ernst and Young(EY) LLP,Kolkata,India**")
