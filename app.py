@@ -333,7 +333,7 @@ st.write('\n')
 st.header('Celebrating 3 Years of Work Anniversary')
 work_anv = current_dir / "assets" / "Work_Anniversary.jpg"
 work_anv = Image.open(work_anv)
-st.image(work_anv, width=400)
+st.image(work_anv, width=800)
 st.write('\n')
 link = '[Wanna Copy template Click here👈](https://ashistiwari2-copy-digital-cv-main-lvsmxx.streamlitapp.com/)'
 st.markdown(link, unsafe_allow_html=True)
