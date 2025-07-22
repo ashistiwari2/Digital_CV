@@ -243,6 +243,16 @@ st.write(
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
+st.write("💻","**Consultant | Ernst and Young(EY) LLP,Kolkata,India**")
+st.write("09/2024 - Till Date")
+st.write(
+    """
+- ► Worked for ABI India on Various Time series project.
+- ► Time series forecasting at Lane level for Transport-UK, Belgium, Germany.
+- ► Price Benchmark Forecast at weekly as well as Monthly level for NAZ and MX
+"""
+)
+	
 st.write("💻","**Associate Consultant | Ernst and Young(EY) LLP,Kolkata,India**")
 st.write("10/2023 - 09/2024")
 st.write(
