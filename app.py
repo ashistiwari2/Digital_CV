@@ -21,7 +21,7 @@ PAGE_TITLE = "Digital CV | Ashis Tiwari"
 # PAGE_ICON = ":wave:"
 NAME = "Ashis Tiwari"
 DESCRIPTION = """
-Associate consultant @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
+Consultant @ Ernst and Young(EY) LLP, enthusiast about ₿ Cryptocurrency and small investor🚀.
 Holder of Phala network, turbo, vanar chain, neiro, FET, chaingpt, Synthesis network(Snx)
 """
 #PUSH,LCX,LUNC,SWEAT,BABYDOGE,GALA,CHILIZ,NEM,ADA,IOST,ONE,PHB,ETN,WPR,ACT,XVG,LET,ODE,ZEBI
