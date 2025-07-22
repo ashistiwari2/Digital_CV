@@ -243,7 +243,7 @@ st.write(
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
-st.write("💻","**Consultant | Ernst and Young(EY) LLP,Kolkata,India**")
+st.write("🎖️","**Consultant | Ernst and Young(EY) LLP,Kolkata,India**")
 st.write("09/2024 - Till Date")
 st.write(
     """
